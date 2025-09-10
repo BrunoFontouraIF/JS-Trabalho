@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogo de Adivinhação</title>
     <script rel="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 
-    <button onclick="document.getElementById('numero').innerHTML = getRndInteger(1,10)">Adivinhar!</button>
-    <h1 id="numero"></h1>
+    <h1>Adivinhe o número!</h1>
+    <p>Você deve inserir o número na caixa abaixo e registrá-lo (mín. 1, máx. 100).</p>
+    <input type="number" id="numero" min="1" max="100">
+    <button onclick="verificar()">Adivinhar!</button>
 
 </body>
 </html>
