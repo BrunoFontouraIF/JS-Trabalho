@@ -1,3 +1,4 @@
+ // Gerador
  const n_adivinhar = getRndInteger(1, 100);
 
         function getRndInteger(min, max) {
@@ -7,7 +8,8 @@
         function verificar() {
             const numero = document.getElementById('numero').value;
 
-            
+            // Condições (número certo e errado)
+
             if (parseInt(numero) === n_adivinhar) {
               
                 alert("Você acertou!");
@@ -17,6 +19,6 @@
                 
                 alert(`Que pena. O número na verdade era ${n_adivinhar}.`);
                 location.reload();
-                
+
             }
         }
