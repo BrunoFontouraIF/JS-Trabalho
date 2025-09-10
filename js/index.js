@@ -9,10 +9,14 @@
 
             
             if (parseInt(numero) === n_adivinhar) {
+              
                 alert("Você acertou!");
                 location.reload();
+
             } else {
+                
                 alert(`Que pena. O número na verdade era ${n_adivinhar}.`);
                 location.reload();
+                
             }
         }
