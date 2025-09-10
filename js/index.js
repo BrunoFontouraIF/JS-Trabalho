@@ -7,7 +7,7 @@
         function verificar() {
             const numero = document.getElementById('numero').value;
 
-            // Verificação final
+            
             if (parseInt(numero) === n_adivinhar) {
                 alert("Você acertou!");
                 location.reload();
